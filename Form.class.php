@@ -121,8 +121,8 @@ Dernière modification : En cours
 	}
 	/**
 	 * upload
-	 * Lance l'action Upload de tous les champs concernzs.
-	 * @return execute (Boolean) : True, Tout s'est correctement dzroulz / False, dans le cas contraire
+	 * Lance l'action Upload de tous les champs concernés.
+	 * @return execute (Boolean) : True, Tout s'est correctement déroulé / False, dans le cas contraire
 	 */
 	function upload(){	
             $execute = true; 
@@ -251,11 +251,7 @@ Dernière modification : En cours
 	 * 
 	 */
 	function isValidPosition($position){
-            if(in_array($position, $this->arrayValidPosition)){
-                return true;
-            } else {
-                return false; 
-            }
+			return in_array($position, $this->arrayValidPosition);
 	}
 	/**
 	 * showValidMessage
