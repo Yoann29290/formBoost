@@ -1,0 +1,148 @@
+/********************************************
+Auteur                : Chapalain Yoann
+Site web              : http://www.happyflash.fr
+Framework             :	FormBoost
+Fichier               : formulaire.css
+Derniere modification : 28/01/2012  	
+ *******************************************/
+ /* 
+    -------
+    - Formulaires :
+    - stylesheet pour tous les elements du formulaire.
+    -------
+*/
+form {
+    margin: 10px; 
+}
+fieldset {
+    margin: 0px; padding: 0px;
+    background-color: transparent;
+    border: 1px solid #777777;
+    border: none;
+}
+legend {
+    color: #356AA0;
+    font-weight: bold;
+    padding: 5px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+select {
+    padding: 5px; width: 145px;
+    border: 1px solid #356AA0;
+    font: normal 1em Verdana, sans-serif;
+    color: #777777;
+}
+input {
+    margin-bottom: 5px; padding: 8px;
+    border: 1px solid #356AA0;
+    font: normal 1em Verdana, sans-serif;
+    color: #777777;
+    background-color: #FFFFFF;
+    width: 200px;
+}
+textarea {
+    width: 400px;
+    padding: 2px;
+    font: normal 1em Verdana, sans-serif;
+    border: 1px solid #356AA0;
+    height: 100px;
+    display: block;
+    color: #777777;
+}
+/* Classes particulieres */
+/* Boutons */
+.buttonGroup {
+    margin: inherits; padding: 7px;
+    text-align: right;
+    background-color: #EEEEEE;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+}
+input.button { 
+    background: url("../images/forms/button.png") repeat-x scroll 0 0 #F5F5F5;
+    border-width: 1px;
+    border-color: #DEDEDE #BFBFBF #BFBFBF #DEDEDE;
+    color: #34404F;
+    cursor: pointer;
+    font-weight: bold;
+    overflow: visible;
+    padding: 5px;
+    width: auto;
+}
+/* button:hover */
+input.button:hover { 
+    border: 1px solid #A7CEDF;
+    background-color: #DFF4FF;
+    color: #336699;
+    
+}
+/* -- Affichages des erreurs */
+.formError {
+    color: #C00;
+    border: 1px solid #C00;
+    background-color: #FFEBE8;
+}
+.transparentFieldSet {
+    background-color: #FFFFFF;
+}
+.testFieldSet {
+    margin: 0;
+    background-color: #FFFFFF;
+    border : none;
+    color : #356AA0;
+}
+form  p { margin: 0 0 0 25px; padding: 0; }
+
+#form_infos {
+    margin: 0 25px; padding: 10px;
+    background-color: #EEEEEE;
+    color: #555555;
+    border: 1px solid #DDDDDD;
+    box-shadow: 1px 3px 7px #BBBBBB;
+}
+#formInformationBoxImage {
+    float: left;
+}
+#formInformationBoxItems {
+    float: right;
+}
+#formInformationBoxItems ul {
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#formInformationBoxItems ul li {
+    margin: 0; padding: 5px;
+    border-bottom: 1px solid #CCC;
+    font: Bold 120% 'Trebuchet MS', Tahoma, Sans-serif;
+}
+
+#form_right_error {	
+    margin: 0 25px; margin-top: 20px; padding: 10px;
+    background-color: #FFEBE8;
+    color: #555555;    
+    box-shadow: 1px 3px 7px #BBBBBB;    
+}
+#form_right_error ul {
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#form_right_error ul li {
+    margin: 0; padding: 5px;
+    border-bottom: 1px solid #CC99AA;
+    color: #C00;
+    font: Bold 120% 'Trebuchet MS', Tahoma, Sans-serif;
+}
+
+/* --- alignment classes --- */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
+/* display and additional classes */
+.clear { clear: both; }
